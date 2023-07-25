@@ -106,19 +106,8 @@ layout: archive
 
 {{ content }}
 
-<h3 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_posts | default: "Recent Posts" }}</h3>
-
-{% if paginator %}
-  {% assign posts = paginator.posts %}
-{% else %}
-  {% assign posts = site.posts %}
-{% endif %}
-
-{% assign entries_layout = page.entries_layout | default: 'list' %}
-<div class="entries-{{ entries_layout }}">
-  {% for post in posts %}
-    {% include archive-single.html type=entries_layout %}
-  {% endfor %}
-</div>
-
+<h3 class="archive__subtitle">Bio</h3>
+<p style="font-size: 16px;">I am Jangseop Park (박장섭 in Korean), a Ph.D. student at <a href="https://mo.kaist.ac.kr">KAIST
+		CCS Graduate School of Mobility</a>
+	advised by Prof. <a href="http://www.smartdesignlab.org/">Namwoo Kang</a>.</p>
 {% include paginator.html %}

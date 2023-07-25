@@ -105,7 +105,7 @@ analytics:
 # Site Author
 author:
   name             : "Jangseop Park"
-  avatar           : "/assets/images/selfie.jpg"
+  avatar           : "/assets/images/selfie_photo.jpg"
   bio              : "Ph.D. student @ KAIST"
   location         : "Daejeon, Korea"
   email            : #"jangseop@kaist.ac.kr"

@@ -108,7 +108,7 @@ author:
   avatar           : "/assets/images/selfie.jpg"
   bio              : "Ph.D. student @ KAIST"
   location         : "Daejeon, Korea"
-  email            : "jangseop@kaist.ac.kr"
+  email            : #"jangseop@kaist.ac.kr"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"

@@ -7,3 +7,9 @@ search: false
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
+
+.avatar {
+  width: 200px; /* 원하는 너비 값으로 조정해보세요 */
+  height: 200px; /* 원하는 높이 값으로 조정해보세요 */
+  border-radius: 50%; /* 이미지를 원형으로 보이게 설정 */
+}
